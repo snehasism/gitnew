@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                 withMaven(maven : 'maven_3_5_0') {
-                    sh 'cd mavewabappdemo'
+                    sh 'cd /gitnew/mavewabappdemo'
                     sh 'mvn clean compile'
                 }
             }
